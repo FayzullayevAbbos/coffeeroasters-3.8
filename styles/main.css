@@ -1,0 +1,234 @@
+/*================= Global sytles============================ */
+
+:root {
+  --fonts-black-: #333d4b;
+  --fonts-white-: #fefcf7;
+  --fonts-opo-: #83888f;
+  --btn-col-: #0e8784;
+  --ss-: "Barlow", sans-serif;
+  --fs-: "Fraunces", serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--fs-), var(--ss-);
+  background-color: #fefcf7;
+}
+.container {
+  max-width: 111rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.big-container {
+  max-width: 112.8rem;
+  margin: 0 auto;
+  /*  */
+}
+/* ===================================Utility classes ========================*/
+.flex {
+  display: flex;
+}
+.space-beetwen {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: end;
+}
+.text-center {
+  text-align: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+/*======================= companents================== */
+.btn {
+  background: var(--btn-col-);
+  padding: 1.5rem 3.1rem;
+  max-width: 21.7rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  color: var(--fonts-white-);
+  border-radius: 0.6rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 2.2rem;
+}
+.h {
+  font-family: var(--fs-);
+  font-weight: 900;
+}
+.h1 {
+  color: var(--fonts-white-);
+  font-size: 7.2rem;
+  max-width: 49rem;
+}
+.h2 {
+  font-family: var(--fs-);
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4.8rem;
+  color: var(--fonts-white-);
+}
+.p {
+  font-family: var(--ss-);
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.p-white {
+  color: var(--fonts-white-);
+  max-width: 44rem;
+  line-height: 2.6rem;
+}
+.g-33 {
+  gap: 3.3rem;
+}
+.g-24 {
+  gap: 2.4rem;
+}
+.g-70 {
+  gap: 7rem;
+}
+.oppoc {
+  opacity: 0.8;
+}
+.nav-padd {
+  padding: 4.3rem 0;
+}
+.gamburger {
+  display: none;
+}
+
+li a {
+  font-family: var(--ss-);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+  color: var(--fonts-opo-);
+}
+li a:hover {
+  color: var(--fonts-black-);
+}
+
+header {
+  height: 100vh;
+  margin-bottom: 20rem;
+}
+.hero {
+  background: url("../images/png/hero-bg.png") no-repeat center;
+  max-height: 60rem;
+  background-size: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.hero-items {
+  padding: 11.7rem 8.5rem;
+  width: 100%;
+}
+.bg {
+  margin-top: 20rem;
+  padding: 5rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
+  gap: 3rem;
+}
+.h3 {
+  font-size: 2.4rem;
+}
+.p-black {
+  color: var(--fonts-black-);
+  font-size: 1.6rem;
+  max-width: 22.5rem;
+}
+.main1 {
+  margin-bottom: 18rem;
+  background: url("../images/png/oppo.png") no-repeat center top -3rem;
+}
+.main2 {
+  border-radius: 10px;
+  background: #2c343e;
+  padding: 10rem 0;
+  position: relative;
+  margin-bottom: 35rem;
+}
+.main2 > p {
+  margin-bottom: 9rem;
+  max-width: 54rem;
+}
+.grid2__flex img {
+  width: 7.2rem;
+  height: 7.2rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+.grid2__flex {
+  padding: 7.2rem 48px 48px  ;
+  border-radius: 8px;
+  background: #0e8784;
+}
+.grid2__flex .p {
+  max-width: 22.5rem;
+  
+}
+.grid2 {
+  max-width: 100%;
+  max-height: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+  position: absolute;
+
+  transform: translateY(60%);
+}
+.work{
+    color: var(--fonts-opo-);
+    margin-bottom: 8rem;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    margin-bottom: 6.4rem;
+    
+}
+.grid3 .h1{
+ color: #FDD6BA;
+
+}
+.grid3 .h2{
+    color: var(--fonts-black-);
+    font-size: 3.2rem;
+    max-width: 25rem;
+}
+.grid3__body{
+    gap: 4rem;
+}
+.btn-20{
+    margin-bottom: 20rem;
+}
+footer{
+    background-color: var(--fonts-black-);
+}
+.footer nav{
+    gap: 10rem;
+}
+.footer li a:hover{
+    color: var(--fonts-white-);
+}
+.social{
+    cursor: pointer;
+}
